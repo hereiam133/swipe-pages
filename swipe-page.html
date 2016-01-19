@@ -6,6 +6,11 @@
     :host {
       overflow-y: scroll;
     }
+    
+     :host::-webkit-scrollbar {
+      display: none;
+      -ms-overflow-style: none;
+    }
 
     :host, .pageContainer{
       display: block;
